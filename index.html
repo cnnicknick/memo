@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>to do list</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/data.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/font.css">
+
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/data.js"></script>
+</head>
+<div class="panel panel-default bwlu" style="z-index:999;position:relative">
+    <div class="panel-heading bwlhead">
+        <h3 class="panel-title" data-role="bwl"></h3>
+    </div>
+    <div class="panel-body add">
+        <span class="glyphicon glyphicon-plus" data-role="jia">点击添加内容</span>
+    </div>
+</div>
+
+
+<form style="z-index:999;background:rgb(217, 237, 247)">
+    <button type="button" class="close form-close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <div class="form-group">
+        <label for="exampleInputEmail1">标题</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="添加标题">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1">内容</label>
+        <textarea class="form-control" rows="3"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="time">时间</label>
+        <input type="date" id="time">
+    </div>
+    <button type="button" class="btn btn-default submitbtn">Submit</button>
+</form>
+
+
+<div class="panel panel-info con">
+    <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+    <div class="panel-heading">标题</div>
+    <div class="panel-body title-con">
+        这是标题
+    </div>
+    <div class="panel-heading">内容</div>
+    <div class="panel-body con-con">
+        这是内容
+    </div>
+    <div class="panel-heading">时间</div>
+    <div class="panel-body time-con">
+        时间显示
+    </div>
+</div>
+</html>
